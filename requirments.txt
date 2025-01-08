@@ -1,0 +1,5 @@
+requests
+transformers
+python-dotenv
+langchain
+langchain-community
