@@ -29,3 +29,24 @@ Finally, in the last stage of our pipeline we feed the previous scenario into [S
 - [BLIP Image Captioning Base](https://huggingface.co/Salesforce/blip-image-captioning-base)
 - [Stable Diffusion 3.5](https://huggingface.co/stabilityai/stable-diffusion-3.5-large)
 - [Kan Bayashi Ljspeech](https://huggingface.co/espnet/kan-bayashi_ljspeech_vits)
+
+
+## Try it for yourself!
+1. Must have python3
+2. Clone repository
+```
+git clone https://github.com/JacobJungg/Ai-Ify.git 
+```
+3. Install dependencies
+```
+pip install transformers streamlit pillow requests python-dotenv
+```
+4. Create an .env file in root directory and add the following unique tokens
+```
+HUGGINGFACE_API_TOKEN = 'hf_XXXXXXXX'
+OPENAI_API_KEY = 'xxxxxxxxxxxxxxxx'
+```
+5. Run the frontend
+```
+streamlit run main.py
+```
